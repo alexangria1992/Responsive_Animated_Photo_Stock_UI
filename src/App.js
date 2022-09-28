@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Logo from "./assets/components/Logo";
 import ProfileSection from "./assets/components/ProfileSection";
 import SearchBar from "./assets/components/SearchBar";
+import SideMenu from "./assets/components/SideMenu";
 
 // import { Colors } from "./assets/Theme";
 
@@ -27,6 +28,7 @@ function App() {
       <Logo>Grts</Logo>
       <SearchBar />
       <ProfileSection />
+      <SideMenu />
     </AppEl>
   );
 }

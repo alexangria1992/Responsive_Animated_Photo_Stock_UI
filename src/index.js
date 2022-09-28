@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     padding: 0;
+    transition: all .2s ease-out;
     margin: 0;
     box-sizing: border-box ;
     font-family: "Montserrat", sans-serif;

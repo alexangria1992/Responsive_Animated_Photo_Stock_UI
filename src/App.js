@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import Logo from "./assets/components/Logo";
+import ProfileSection from "./assets/components/ProfileSection";
 import SearchBar from "./assets/components/SearchBar";
+
 // import { Colors } from "./assets/Theme";
 
 const AppEl = styled.div`
@@ -14,7 +16,9 @@ const AppEl = styled.div`
   gap: 0.5rem;
   align-items: center;
   min-height: 100vh;
-  background-color: lightcoral;
+  height: 100vh;
+
+  /* background-color: lightcoral; */
 `;
 
 function App() {
@@ -22,6 +26,7 @@ function App() {
     <AppEl>
       <Logo>Grts</Logo>
       <SearchBar />
+      <ProfileSection />
     </AppEl>
   );
 }

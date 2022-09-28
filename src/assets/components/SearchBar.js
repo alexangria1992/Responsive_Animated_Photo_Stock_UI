@@ -31,7 +31,7 @@ const SearchBarEl = styled.article`
   } */
 
   @media ${Devices.Tablet} {
-    grid-column: 2 / span 10;
+    grid-column: 2 / span 9;
   }
 `;
 

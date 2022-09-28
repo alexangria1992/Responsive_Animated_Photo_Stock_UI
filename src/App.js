@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Logo from "./assets/components/Logo";
-import { Colors } from "./assets/Theme";
+import SearchBar from "./assets/components/SearchBar";
+// import { Colors } from "./assets/Theme";
 
 const AppEl = styled.div`
   display: grid;
@@ -20,6 +21,7 @@ function App() {
   return (
     <AppEl>
       <Logo>Grts</Logo>
+      <SearchBar />
     </AppEl>
   );
 }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Content from "./assets/components/Content";
 import Logo from "./assets/components/Logo";
 import ProfileSection from "./assets/components/ProfileSection";
 import SearchBar from "./assets/components/SearchBar";
@@ -29,6 +30,7 @@ function App() {
       <SearchBar />
       <ProfileSection />
       <SideMenu />
+      <Content />
     </AppEl>
   );
 }
